@@ -5,5 +5,5 @@ Faculty project web-app
 
 Python 3.7.2 <br>
 Django 2.1.7 <br>
-pyscopg2 2.7.7 (postgresql adapter) <br>
+pyscopg2 2.7.7 (PostgreSQL adapter) <br>
 virtualenvwrapper-win 1.2.5 <br>
