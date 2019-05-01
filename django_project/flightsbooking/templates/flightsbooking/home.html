@@ -1,0 +1,15 @@
+{% extends 'flightsbooking/base.html' %}
+
+{% block content %}
+<table class="row">
+    <tr>
+        {% for airline in airlines %}
+        <td>
+            <a href="#" class="list-group-item list-group-item-action">{{ airline.name }} </a>
+        </td>
+        {% if forloop.counter|divisibleby:3 %}
+    </tr>
+        {% endif %}
+    {% endfor %}
+</table>
+{% endblock %}
